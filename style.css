@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+body {
+  background-image: url("cute.jpg");
+  position: absolute;
+  width: 120vh;
+  height: 80vh;
+  overflow: hidden;
+}
+
+header {
+  margin-left: 20vh;
+  background-image: url("header.png");
+  background-repeat: no-repeat;
+  background-size: 100vh;
+  position: relative;
+  width: 100vh;
+  height: 20vh;
+}
+
+h1 {
+  text-align: center;
+  color: yellow;
+  font-size: 10vh;
+}
+
+#left {
+  float: left;
+  margin-left: 20vh;
+  background-image: url("street.jpg");
+  background-size: 35vh 64vh;
+  background-repeat: no-repeat;
+  width: 35vh;
+  height: inherit;
+  position: absolute;
+}
+
+#little {
+  color: white;
+}
+
+#right {
+  float: right;
+  background-image: url("texture.jpg");
+  width: 65vh;
+  height: inherit;
+}
+
+#obstacle {
+  width: 54.3%;
+  height: 13%;
+  background-image: url("texture.jpg");
+  position: absolute;
+  display: none;
+}
+
+#life {
+  float: left;
+  margin-left: 5vh;
+  position: relative;
+  background-color: rgb(9, 255, 0);
+  width: 10vh;
+  height: 50vh;
+  margin-top: 7vh;
+}
+#base {
+  display: fixed;
+  float: center;
+  margin-left: 0vh;
+  position: absolute;
+  background-image: url("dead.jpg");
+  background-size: 35vh 16vh;
+  background-repeat: no-repeat;
+  width: 35vh;
+  height: 25vh;
+  margin-top: 55vh;
+}
+
+#show {
+  width: 4vh;
+  height: 4vh;
+}
+
+#showing {
+  margin-left: 10vh;
+  text-align: center;
+  font-size: 6vh;
+}
+#showing-score {
+  width: 15vh;
+  margin-left: 1vh;
+  text-align: center;
+  margin-top: 80%;
+  font-size: 3vh;
+  color: green;
+}
+#real-score {
+  width: 15vh;
+  margin-left: 1vh;
+  text-align: center;
+  margin-top: 90%;
+  font-size: 3vh;
+  color: white;
+}
+
+#img {
+  margin-top: 300%;
+  margin-left: 500%;
+  max-width: 600%;
+}
+
+.btn {
+  width: 8vh;
+  height: 8vh;
+  margin-left: 5.5%;
+  margin-top: 2%;
+  border-radius: 40%;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 1.5vh;
+}
+
+.start {
+  margin-left: 35%;
+  background-color: rgb(255, 255, 255);
+  font-size: 2vh;
+}
